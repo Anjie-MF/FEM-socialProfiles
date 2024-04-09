@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repo](https://github.com/Anjie-MF/FEM-socialProfiles)
-- Live Site URL: [GH Pages](https://your-live-site-url.com)
+- Live Site URL: [GH Pages](https://anjie-mf.github.io/FEM-socialProfiles/)
 
 ## My process
 
@@ -46,14 +46,14 @@ Debugging - After completing my code, I encountered an issue where the live prev
 
 Accessibility: Use semantic HTML elements and provide alternative text for images (alt attribute).
 
-Consistency: Try to make CSS more DRY (Don't Repeat Yourself) by using classes and styles more efficiently. (A new phrase I just learned today; will link article in the Resources)
+Consistency: Try to make CSS more DRY (Don't Repeat Yourself) by using classes and styles more efficiently. (A new phrase I just learned today; will link the article in the Resources)
 
 Performance: Optimizing my assets (images, CSS, JS) for faster loading times.
 
 ### Useful resources
 
-- [Dry CSS](https://vanseodesign.com/css/dry-principles/) - A beginner friendly article about the concpet of DRY CSS.
-- [CSS Button Style](https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/#hover) - A step by step guide on the HTML/CSS of buttons
+- [Dry CSS](https://vanseodesign.com/css/dry-principles/) - A beginner-friendly article about the concept of DRY CSS.
+- [CSS Button Style](https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/#hover) - A step-by-step guide on the HTML/CSS of buttons
 
 ## Author
 
