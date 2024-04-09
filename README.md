@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repo](https://github.com/Anjie-MF/FEM-socialProfiles)
-- Live Site URL: [GH Pages](https://your-live-site-url.com)
+- Live Site URL: [GH Pages]( https://anjie-mf.github.io/FEM-socialProfiles/)
 
 ## My process
 
