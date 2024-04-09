@@ -1,3 +1,245 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core body defaults */
 body {
-    background-color: aqua;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+    line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+    white-space: normal;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background-color: #242038;
+}
+
+main {
+    background-color: #725AC1;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0;
+    max-width: 20rem;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+}
+
+.img-container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.dev-blurb h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+.dev-blurb h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #231B6A;
+    margin: 10px;
+}
+
+.dev-blurb p {
+    font-size: .9rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+.social-buttons {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-github {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #231B6A;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+    /* Add some spacing between buttons */
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.button-github:hover {
+    background-color: #EF2917;
+    /* color that appears when on hover */
+}
+
+.frontend-mentor {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #231B6A;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+    /* Add some spacing between buttons */
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.frontend-mentor:hover {
+    background-color: #EF2917;
+}
+
+.button-linkedin {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #231B6A;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+    /* Add some spacing between buttons */
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.button-linkedin:hover {
+    background-color: #EF2917;
+}
+
+.button-twitter {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #231B6A;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+    /* Add some spacing between buttons */
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.button-twitter:hover {
+    background-color: #EF2917;
+}
+
+.button-instagram {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #231B6A;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+    /* Add some spacing between buttons */
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.button-instagram:hover {
+    background-color: #EF2917;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: white;
 }
